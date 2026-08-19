@@ -106,7 +106,7 @@ export default function FeatureStory() {
             key={feature.num} 
             className="flex flex-col lg:flex-row items-center gap-16 lg:gap-32 relative"
           >
-            <div className={`absolute top-0 opacity-[0.03] dark:opacity-[0.05] text-[12rem] md:text-[20rem] font-bold tracking-tighter leading-none pointer-events-none select-none z-0 text-primary dark:text-white transition-colors duration-500 ${index % 2 === 1 ? 'right-0 lg:-right-20' : 'left-0 lg:-left-20'}`}>
+            <div className={`absolute top-0 opacity-10 dark:opacity-5 text-[12rem] md:text-[20rem] font-bold tracking-tighter leading-none pointer-events-none select-none z-0 text-primary dark:text-white transition-colors duration-500 ${index % 2 === 1 ? 'right-0 lg:-right-20' : 'left-0 lg:-left-20'}`}>
               {feature.num}
             </div>
 
